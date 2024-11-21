@@ -112,7 +112,6 @@ p.price {
 nav ul li {
 	text-transform: uppercase;
 	font-weight: bold;
-	display: inline-block;
 	margin: 1.5em 0.5em .5em;
 	}
 	
@@ -120,7 +119,6 @@ nav ul li a {
 	color: rgb(255, 255, 21);
 	background-color: rgb(29, 21, 255);
 	padding: .4em .5em .3em;
-	font-size: 1.5em;
 	}
 	
 nav ul li.selected a {
@@ -173,5 +171,11 @@ footer p {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 5em;
+	}
+	nav ul li {
+		display: inline-block;
+	}
+	nav ul li a {
+		font-size: 1.4em;
 	}
 }
