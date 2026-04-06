@@ -25,7 +25,7 @@ header {
 }
 
 article {
-	flex: 2 0 40em;
+	flex: 2 2 40em;
 }
 
 ol {
@@ -33,7 +33,7 @@ ol {
 }
 
 aside {
-	flex: 1 0 20em;
+	flex: 1 1 20em;
 }
 
 section {
