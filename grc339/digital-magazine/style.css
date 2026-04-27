@@ -1,0 +1,137 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+nav ul li {
+    padding: 0 1em .5em 0;
+}
+
+nav ul li a {
+    display: inline;
+    color: rgb(76, 115, 167);
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 0 .6em;
+}
+
+header img {
+    width: 10em;
+    margin: 1em 0 1em .5em;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin: 0 0 2em;
+}
+
+
+h2 {
+    color: rgb(76, 115, 167);
+    font-weight: 700;
+    margin: .1em .2em 0;
+}
+
+.mainstory h2 {
+    font-size: 3em;
+}
+
+main section.secondstory h2 {
+    font-size: 2em;
+    margin: .2em .3em 0;
+}
+
+.tertiarystory h2 {
+    font-size: 1.2em;
+    margin: .2em .6em 0;
+    padding-top: .5em;
+    border-top: 1.5px solid rgb(76, 115, 167);
+}
+
+p {
+    color: rgb(22,22,22);
+    margin: 0 .7em 1.5em;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+article h2 {
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+figcaption {
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(72, 72, 72);
+    margin: .3em .7em 1em;
+}
+
+
+aside {
+    background-color: rgb(214, 227, 255);
+    padding: 1em .5em;
+}
+
+aside section.secondstory h2 {
+    font-size: 1em;
+    margin: 0 .6em;
+}
+
+
+footer {
+    background-color: rgb(76, 115, 167);
+    padding: .5em 0;
+}
+
+footer p {
+    color: #f1f1f1;
+    margin: 0 .7em;
+}
+
+
+@media screen and (min-width:40em) {
+    nav ul li {
+        display: inline;
+    }
+    nav ul li a {
+        margin: 0;
+    }
+
+    header img {
+        margin: 1em 0;
+    }
+    
+    h2 {
+        margin: 0;
+    }
+
+    main section.secondstory h2, aside section.secondstory h2 , .tertiarystory h2{
+        margin: 0;
+    }
+
+    p {
+        margin: 0 0 1.5em 0;
+    }
+
+    figcaption {
+        margin: .3em 0 1em;
+    }
+}
